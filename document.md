@@ -15,8 +15,10 @@
 # Project Tree
 
 app
-|_model types: Todo 
-|_inputfield
+- model types: Todo 
+- <InputField>
+- <TodoList>
+- <SingleTodo>
 
 
 # Record
@@ -25,17 +27,18 @@ app
 
 - npx create-react-app taskify --template typescript
 - clean up project files
+- npm install react-icons
 
 ## Create Components
 
 - create components, pass props
 - create model of TS new types & interfaces
 - create logic function
-- useRef React hook
 
 # Great to keep in mind!
 
 - create prettierignore file
 - declare type Props of each component
 - apply optional chaining with question mark "?"
-- apply useRef hook
+- apply useRef, useEffect hook
+- apply react-icons lib
